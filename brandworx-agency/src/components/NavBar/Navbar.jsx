@@ -8,7 +8,7 @@ export const Navbar = () => {
           style={{
             fontSize: "16.2px",
             fontFamily: "Poppins",
-            marginLeft: "15px",
+            marginLeft: "25px",
             color:
               "background: linear-gradient(333.6deg, #999999 21.9%, #F2FF00 97.42%)",
             fontWeight: "700",
