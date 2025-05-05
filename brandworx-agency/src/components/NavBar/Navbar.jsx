@@ -17,53 +17,19 @@ export const Navbar = () => {
           Brandworx
         </p>
       </div>
-      <div className="navbar">
-        <a
-          href="#home"
-          style={{
-            color: "white",
-            textDecoration: "none",
-          }}
-        >
-          Home
-        </a>
-        <a
-          href="#about"
-          style={{
-            color: "white",
-            textDecoration: "none",
-          }}
-        >
-          About
-        </a>
-        <a
-          href="#services"
-          style={{
-            color: "white",
-            textDecoration: "none",
-          }}
-        >
-          Services
-        </a>
-        <a
-          href="#portfolio"
-          style={{
-            color: "white",
-            textDecoration: "none",
-          }}
-        >
-          Portfolio
-        </a>
-        <a
-          href="#contactus"
-          style={{
-            color: "white",
-            textDecoration: "none",
-          }}
-        >
-          Contact Us
-        </a>
-      </div>
+
+      <nav class="navbar">
+        <button class="menu-toggle" onclick="toggleMenu()">
+          ☰
+        </button>
+        <div className="navbar nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contactus">Contact Us</a>
+        </div>
+      </nav>
       <div className="contact-navbar">
         <p>Contact Us</p>
         <span className="contact-arrow">&#8599;</span>

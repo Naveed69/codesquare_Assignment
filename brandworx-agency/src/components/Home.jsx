@@ -34,6 +34,23 @@ export const Home = () => {
           </p>
           <button className="get-Started-btn cursor">Get Sarted</button>
         </div>
+        <div class="circle-text-container">
+          <svg viewBox="0 0 200 200" class="circle-svg">
+            <defs>
+              <path
+                id="circlePath"
+                d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0"
+              />
+            </defs>
+            <text fill="white" font-size="24" font-family="Poppins">
+              <textPath href="#circlePath" startOffset="0%">
+                s c r o l l &nbsp; d o w n &nbsp; f o r &nbsp; w o r k &nbsp; t
+                o g e t h e r
+              </textPath>
+            </text>
+          </svg>
+          <div class="center-text">🖱</div>
+        </div>
       </div>
     </div>
   );

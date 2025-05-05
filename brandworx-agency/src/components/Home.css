@@ -61,3 +61,28 @@
   border-radius: 40px;
   border: none;
 }
+
+/* round below */
+.circle-text-container {
+  position: relative;
+  top: 110px;
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.circle-svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg); /* optional, to adjust text orientation */
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: white;
+  font-family: Poppins, sans-serif;
+}
