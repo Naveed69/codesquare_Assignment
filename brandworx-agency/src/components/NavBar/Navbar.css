@@ -1,6 +1,48 @@
 .navbar-container {
-  padding: 20px;
+  padding-top: 20px;
+  position: relative;
+  left: 0px;
   display: flex;
-  text-align: center;
   justify-content: space-around;
+}
+
+.brand-name {
+  width: 159.9px;
+  height: 54px;
+}
+
+.logo {
+  height: 45px;
+  width: 45.9px;
+  position: absolute;
+  background-image: url("../../Assests/Logo.png");
+}
+
+.navbar {
+  width: 474px;
+  height: 54px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.contact-navbar {
+  width: 164px;
+  height: 48px;
+  border: 1px solid white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact-arrow {
+  width: 20px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
 }
