@@ -11,9 +11,8 @@ img {
 }
 
 @media (width<=786px) {
-  .work-container > img {
-    position: relative;
-    left: 10px;
-    top: -160px;
+  .work-container img {
+    width: 300px;
+    height: 200px;
   }
 }
