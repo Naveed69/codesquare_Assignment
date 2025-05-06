@@ -43,6 +43,7 @@ export const Navbar = () => {
           ☰
         </button>
         <div className={`nav-links ${menuOpen ? "active" : ""}`}>
+          <span className="topmargin"></span>
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#services">Services</a>

@@ -102,4 +102,7 @@ a {
     position: absolute;
     right: 20px;
   }
+  .topmargin {
+    margin-top: 70px;
+  }
 }
