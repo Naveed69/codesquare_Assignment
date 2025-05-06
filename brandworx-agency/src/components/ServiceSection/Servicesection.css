@@ -48,9 +48,11 @@
   }
   .imgvector4 {
     height: 300px;
+    top: 300px;
   }
   .imgrings {
     height: 100.2px;
     width: 100.2px;
+    top: 380px;
   }
 }
