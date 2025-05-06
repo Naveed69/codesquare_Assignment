@@ -105,6 +105,8 @@ a {
   .topmargin {
     margin-top: 70px;
     width: 100%;
-    background-color: black;
+    height: 2px;
+    border: none;
+    background-color: #3c149b;
   }
 }

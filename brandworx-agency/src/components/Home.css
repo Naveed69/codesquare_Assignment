@@ -94,6 +94,8 @@
 @media (width<=768px) {
   .hero-name-container {
     width: 500px;
+    display: flex;
+    /* flex-wrap: wrap; */
   }
   .hero-name {
     font-size: 30px;
@@ -101,8 +103,6 @@
   .help-section {
     margin-top: 0px;
     font-size: 12px;
-    display: flex;
-    flex-wrap: wrap;
   }
 
   .circle-text-container {
