@@ -11,13 +11,7 @@ export const Home = () => {
           <div class="fa cursor">&#xf08c;</div>
           <div class="fa cursor">&#xf099;</div>
         </span>
-        <div
-          className="hero-name-container"
-          style={{
-            width: "1100px",
-            height: "220px",
-          }}
-        >
+        <div className="hero-name-container">
           <p className="hero-name">
             Amazing Digital Creations with{" "}
             <span
