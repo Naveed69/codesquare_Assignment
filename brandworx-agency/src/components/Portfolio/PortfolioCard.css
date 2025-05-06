@@ -37,7 +37,7 @@
 
 .card-img {
   position: relative;
-  left: 280px;
+  left: 120px;
   top: -125px;
   width: 50%;
 }
@@ -45,4 +45,20 @@
 .heading-text {
   position: relative;
   top: 40px;
+}
+
+.port-roundbtn {
+  position: relative;
+  top: -300px;
+  left: 400px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50px;
+  z-index: 3;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.card-details {
+  text-align: left;
 }
