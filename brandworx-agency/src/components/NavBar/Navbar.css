@@ -73,19 +73,22 @@ a {
   background: none;
   border: none;
   cursor: pointer;
+  z-index: 2;
 }
 
 /* Mobile View */
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
-    background-color: #854cff;
+    background-color: #a28ecf;
     position: absolute;
-    top: 80px;
+    top: 0px;
     right: 0;
     width: 60%;
     display: none;
-
+    height: 100vh;
+    z-index: 1;
+    transition: width 0.3s ease-in-out;
     /* border-right: 10px; */
   }
 
