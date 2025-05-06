@@ -95,7 +95,7 @@
   .hero-name-container {
     width: 500px;
     display: flex;
-    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap;  remove above one line if any probem*/
   }
   .hero-name {
     font-size: 30px;
