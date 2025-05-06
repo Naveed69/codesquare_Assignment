@@ -42,7 +42,7 @@
   font-weight: 400px;
 }
 
-.imgvector4 {
+.imgvector2 {
   position: absolute;
   top: 150px;
   width: 90%;
@@ -61,17 +61,21 @@
   .agency-container > p {
     font-size: 34px;
   }
-  .imgvector4 {
+  .imgvector2 {
     height: 300px;
-    top: 300px;
+    top: 200px;
   }
   .imgrings {
     height: 100.2px;
     width: 100.2px;
-    top: 360px;
+    top: 260px;
   }
 
   .work-Togeather-container > p {
     font-size: 34px;
+  }
+  .work-Togeather-container {
+    position: relative;
+    top: -190px;
   }
 }

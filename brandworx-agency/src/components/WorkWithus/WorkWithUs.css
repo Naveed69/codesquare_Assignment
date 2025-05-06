@@ -12,7 +12,8 @@ img {
 
 @media (width<=786px) {
   .work-container > img {
-    width: 90%;
+    position: relative;
     left: 10px;
+    top: -160px;
   }
 }

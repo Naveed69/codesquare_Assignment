@@ -14,7 +14,7 @@ export const Servicesection = () => {
         <span>Branding & Strategy, Etc...</span>
       </div>
 
-      <img src={vectorImg} alt="vector" className="imgvector4" />
+      <img src={vectorImg} alt="vector" className="imgvector2" />
       <img src={ringsSide} alt="ring" className="imgrings" />
 
       <div className="work-Togeather-container">
