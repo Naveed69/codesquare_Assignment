@@ -84,7 +84,7 @@ a {
     position: absolute;
     top: 0px;
     right: 0;
-    width: 60%;
+    width: 50%;
     display: none;
     height: 100vh;
     z-index: 1;
@@ -104,5 +104,7 @@ a {
   }
   .topmargin {
     margin-top: 70px;
+    width: 100%;
+    background-color: black;
   }
 }
