@@ -96,7 +96,7 @@
     width: 500px;
   }
   .hero-name {
-    font-size: 35px;
+    font-size: 30px;
   }
   .help-section {
     margin-top: 0px;
@@ -106,8 +106,5 @@
   .circle-text-container {
     position: relative;
     top: 20px;
-    width: 100px;
-    height: 100px;
-    color: white;
   }
 }
