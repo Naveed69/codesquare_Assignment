@@ -1,0 +1,18 @@
+.work-container {
+  width: 90%;
+  padding: 20px;
+  position: relative;
+  left: 50px;
+  top: -160px;
+}
+
+img {
+  margin: 5px;
+}
+
+@media (width<=786px) {
+  .work-container > img {
+    width: 90%;
+    left: 10px;
+  }
+}

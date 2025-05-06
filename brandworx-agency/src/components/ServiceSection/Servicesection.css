@@ -27,9 +27,24 @@
   font-weight: 400px;
 }
 
+.work-Togeather-container {
+  width: 40%;
+  height: 238px;
+  text-align: left;
+  margin: 100px;
+  position: relative;
+  top: -120px;
+}
+
+.work-Togeather-container > p {
+  font-size: 54px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 400px;
+}
+
 .imgvector4 {
   position: absolute;
-  top: 250px;
+  top: 150px;
   width: 90%;
   left: 30px;
 }
@@ -53,6 +68,10 @@
   .imgrings {
     height: 100.2px;
     width: 100.2px;
-    top: 370px;
+    top: 360px;
+  }
+
+  .work-Togeather-container > p {
+    font-size: 34px;
   }
 }
