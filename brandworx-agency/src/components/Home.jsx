@@ -1,5 +1,6 @@
 import { Navbar } from "./NavBar/Navbar";
 import "./Home.css";
+import { Servicesection } from "./ServiceSection/Servicesection";
 export const Home = () => {
   return (
     <div className="hero-section">
@@ -46,6 +47,7 @@ export const Home = () => {
           <div class="center-text">🖱</div>
         </div>
       </div>
+      <Servicesection />
     </div>
   );
 };
