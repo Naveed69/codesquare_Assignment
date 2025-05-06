@@ -4,7 +4,7 @@ import { Servicesection } from "./ServiceSection/Servicesection";
 import { Portfolio } from "./Portfolio/Portfolio";
 export const Home = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="home">
       <Navbar />
       <div className="content-hero">
         <span className="social-media">

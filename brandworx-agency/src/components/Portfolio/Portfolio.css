@@ -31,6 +31,7 @@
 .group {
   position: absolute;
   top: -60px;
+  width:100%;
 }
 
 .portfolios-container {
@@ -67,6 +68,79 @@
   padding: 20px;
 }
 
+.vector4 {
+  position: relative;
+  top: 200px;
+}
+
+.about-container {
+  width: 70%;
+  height: 238px;
+  text-align: left;
+  margin: 100px;
+  position: relative;
+  top: -240px;
+}
+
+.about-container > p {
+  font-size: 54px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 400px;
+  position: relative;
+  bottom: -40px;
+}
+
+.comma {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 1300px;
+  left: 860px;
+}
+
+.person-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  position: relative;
+  top: -350px;
+  width: 90%;
+  left: 30px;
+}
+
+.banner2 {
+  position: relative;
+  top: -300px;
+  height: 200px;
+}
+
+.letswork-container {
+  position: relative;
+  top: -550px;
+  left: 50px;
+  text-align: left;
+}
+
+.letswork-container p {
+  font-size: 54px;
+}
+
+.letswork-container span {
+  position: relative;
+  top: -30px;
+}
+
+.connect-btn {
+  position: relative;
+  top: -640px;
+  left: 950px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  width: 238px;
+}
+
 @media (width<=768px) {
   .portfolio-btn {
     position: absolute;
@@ -76,5 +150,60 @@
     position: relative;
     top: 100px;
     left: -40px;
+  }
+
+  .vector4 {
+    position: relative;
+    top: 350px;
+    height: 300px;
+  }
+
+  .about-container {
+    position: relative;
+    top: 50px;
+  }
+  .portfolio-container {
+    background-image: url(../../Assests/Services\ Section.png);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 400vh;
+  }
+
+  .person-cards {
+    position: relative;
+    top: 0px;
+    width: 90%;
+    left: 30px;
+  }
+
+  .banner2 {
+    position: relative;
+    top: -5px;
+    height: 150px;
+  }
+
+  .letswork-container {
+    position: relative;
+    top: -220px;
+    left: 50px;
+    text-align: left;
+  }
+
+  .connect-btn {
+    position: relative;
+    left: 170px;
+    top: -200px;
+  }
+
+  .group {
+    width: 100%;
   }
 }

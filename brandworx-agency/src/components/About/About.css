@@ -1,0 +1,67 @@
+.about-cointenar {
+  position: relative;
+  top: -500px;
+}
+
+.about-logo {
+  width: 98.95px;
+  height: 97.01px;
+  position: relative;
+  left: -400px;
+  top: 50px;
+}
+
+.address {
+  position: relative;
+  top: -100px;
+  left: -150px;
+}
+.phone,
+.email {
+  position: relative;
+  top: -100px;
+  left: -150px;
+}
+
+.services {
+  position: relative;
+  top: -250px;
+  left: 150px;
+}
+
+.social-accounts {
+  position: relative;
+  top: -400px;
+  left: 350px;
+}
+
+.arrow {
+  width: 52px;
+  height: 52px;
+  position: relative;
+  top: -600px;
+  left: 550px;
+}
+
+@media (width<=768px) {
+  .about-cointenar {
+    position: relative;
+    top: -180px;
+  }
+
+  .about-logo {
+    width: 98.95px;
+    height: 97.01px;
+    position: relative;
+    left: -200px;
+    top: -90px;
+  }
+
+  .arrow {
+    width: 52px;
+    height: 52px;
+    position: relative;
+    top: -660px;
+    left: 200px;
+  }
+}
