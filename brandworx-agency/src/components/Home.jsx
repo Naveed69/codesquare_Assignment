@@ -24,7 +24,7 @@ export const Home = () => {
           </p>
           <p className="help-section">
             Help You To Build Digital Solutions That is Modern, User Friendly,
-            Good CEO, and Clean Design
+            <span>Good CEO, and Clean Design</span>
           </p>
           <button className="get-Started-btn cursor">Get Sarted</button>
         </div>
