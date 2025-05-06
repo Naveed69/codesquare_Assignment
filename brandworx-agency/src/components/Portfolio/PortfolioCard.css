@@ -1,0 +1,48 @@
+.portfolio-card {
+  height: 357px;
+  width: 588px;
+  position: relative;
+  top: 400px;
+}
+
+.card {
+  height: 60%;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-card {
+  width: 50%;
+}
+
+.text {
+  padding: 10px;
+  border: 1px solid violet;
+  border-radius: 50px;
+  font-size: 12px;
+  position: relative;
+  left: -70px;
+  top: 40px;
+}
+
+.lorem-text {
+  position: relative;
+  top: 20px;
+  font-size: 14px;
+  color: rgb(102, 98, 98);
+}
+
+.card-img {
+  position: relative;
+  left: 280px;
+  top: -125px;
+  width: 50%;
+}
+
+.heading-text {
+  position: relative;
+  top: 40px;
+}

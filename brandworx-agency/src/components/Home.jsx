@@ -1,6 +1,7 @@
 import { Navbar } from "./NavBar/Navbar";
 import "./Home.css";
 import { Servicesection } from "./ServiceSection/Servicesection";
+import { Portfolio } from "./Portfolio/Portfolio";
 export const Home = () => {
   return (
     <div className="hero-section">
@@ -48,6 +49,7 @@ export const Home = () => {
         </div>
       </div>
       <Servicesection />
+      <Portfolio />
     </div>
   );
 };
