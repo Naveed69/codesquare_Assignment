@@ -77,6 +77,13 @@
 @media (width<768px) {
   .agency-container > p {
     font-size: 34px;
+    position: relative;
+    top: -100px;
+  }
+
+  .agency-container > span {
+    position: relative;
+    top: -100px;
   }
   .imgvector2 {
     height: 300px;
