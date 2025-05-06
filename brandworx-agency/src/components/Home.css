@@ -102,4 +102,12 @@
     margin-top: 0px;
     font-size: 14px;
   }
+
+  .circle-text-container {
+    position: relative;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    color: white;
+  }
 }
