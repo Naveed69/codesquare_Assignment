@@ -63,7 +63,7 @@ a {
   color: white;
   text-decoration: none;
   padding: 10px;
-  transition: background 0.3s;
+  transition: background 0.8s;
 }
 
 .menu-toggle {
@@ -81,17 +81,22 @@ a {
     flex-direction: column;
     background-color: #854cff;
     position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
+    top: 80px;
+    right: 0;
+    width: 60%;
     display: none;
+
+    /* border-right: 10px; */
   }
 
   .nav-links.active {
     display: flex;
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
   }
 
   .menu-toggle {
     display: block;
+    position: absolute;
+    right: 20px;
   }
 }
