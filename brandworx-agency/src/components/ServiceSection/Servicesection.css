@@ -57,6 +57,22 @@
   top: 330px;
 }
 
+.explore-btn {
+  width: 216px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  left: 45%;
+  top: -130px;
+}
+.roundbtn {
+  padding: 1px;
+  width: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
 @media (width<768px) {
   .agency-container > p {
     font-size: 34px;

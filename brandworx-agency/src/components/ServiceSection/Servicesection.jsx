@@ -30,6 +30,9 @@ export const Servicesection = () => {
         </span>
       </div>
       <WorkWithUs />
+      <button type="button" className="explore-btn">
+        Explore All Services <span className="roundbtn">&#8599;</span>
+      </button>
     </div>
   );
 };
