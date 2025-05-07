@@ -34,3 +34,18 @@
   left: 100px;
   color: rgb(136, 119, 119);
 }
+
+@media (width<=768px) {
+  .person-card {
+    width: 80vw;
+    position: relative;
+    left: -15px;
+  }
+
+  .quote {
+    font-size: 38px;
+    position: relative;
+    left: 50px;
+    color: rgb(136, 119, 119);
+  }
+}

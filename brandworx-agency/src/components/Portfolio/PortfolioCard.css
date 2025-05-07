@@ -62,3 +62,24 @@
 .card-details {
   text-align: left;
 }
+
+@media (width<=768px) {
+  .portfolio-card {
+    height: 357px;
+    width: 90vw;
+    position: relative;
+    top: 400px;
+  }
+  .text {
+    font-size: 10px;
+    position: relative;
+    left: 1px;
+    top: 40px;
+  }
+  .card-img {
+    position: relative;
+    left: 80px;
+    top: -105px;
+    width: 50%;
+  }
+}

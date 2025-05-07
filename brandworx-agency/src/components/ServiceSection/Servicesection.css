@@ -93,13 +93,19 @@
     height: 100.2px;
     width: 100.2px;
     top: 260px;
+    left:260px;
   }
 
   .work-Togeather-container > p {
-    font-size: 34px;
+    font-size: 30px;
   }
   .work-Togeather-container {
     position: relative;
     top: -190px;
+  }
+
+  .explore-btn {
+    position: relative;
+    left: 80px;
   }
 }
