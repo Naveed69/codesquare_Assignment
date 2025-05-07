@@ -21,7 +21,7 @@ export const Servicesection = () => {
         <p>Let’s Work Together With Our Us</p>
         <span style={{ fontSize: "12px" }}>
           Partner with us to bring your vision to life through collaboration,
-          innovation, and tailored
+          innovation, and tailoredFour
         </span>
         <br />
         <span style={{ fontSize: "12px" }}>
