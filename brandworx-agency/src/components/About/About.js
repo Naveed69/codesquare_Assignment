@@ -35,6 +35,7 @@ export const About = () => {
       <a href="#home">
         <img src={arrow} alt="arrow" className="arrow" />
       </a>
+      <p className="rights-reserved">© 2025 Brandworx. All rights reserved.</p>
     </div>
   );
 };

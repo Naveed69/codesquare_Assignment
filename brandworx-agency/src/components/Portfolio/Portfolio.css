@@ -166,7 +166,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 800vh;
+    height: 660vh;
+    width:100vw;
     display: flex;
     flex-direction: column;
     text-align: center;

@@ -43,6 +43,12 @@
   left: 550px;
 }
 
+.rights-reserved {
+  position: relative;
+  top: -450px;
+  left: 250px;
+}
+
 @media (width<=768px) {
   .about-cointenar {
     position: relative;
