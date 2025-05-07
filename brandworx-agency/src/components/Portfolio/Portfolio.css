@@ -150,7 +150,7 @@
   .portfolio-cards {
     position: relative;
     top: -650px;
-    width: 100vh;
+    width: 100vw;
   }
 
   .about-container {
@@ -186,6 +186,7 @@
     position: relative;
     top: -240px;
     left: -20px;
+    width: 100vw;
   }
 
   .portfolios-container > p {
@@ -238,7 +239,7 @@
     width: 200px;
     height: 150px;
     position: absolute;
-    top: 100px;
-    left:-10px;
+    top: 1800px;
+    left: -10px;
   }
 }
