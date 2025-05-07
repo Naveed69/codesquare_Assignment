@@ -54,6 +54,8 @@
     position: relative;
     top: -480px;
     left: 100px;
+    height: 10px;
+    width: 80vw;
   }
 
   .about-logo {
@@ -81,13 +83,14 @@
   .services {
     position: relative;
     top: -380px;
-    left: 10px;
+    left: 50px;
   }
 
   .social-accounts {
     position: relative;
     top: -380px;
-    left: 10px;
+    left: 150px;
+    width: 100px;
   }
 
   .arrow {
